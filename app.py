@@ -3,7 +3,6 @@ from flask_restful import Api
 from flask_jwt import JWT
 
 from security import authenticate, identity 
-from create_table import create_users_table, create_items_table
 from resources.user import UserRegister
 from resources.item import Item, ItemList
 from resources.store import Store, StoreList
